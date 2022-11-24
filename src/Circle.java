@@ -19,12 +19,12 @@ public class Circle extends Shape{
     }
 
     public double getArea() {
-        this.area= 3.14*Math.pow(radius,2);
+        this.area= Math.PI*Math.pow(radius,2);
         return area;
     }
 
     public double getPerimeter() {
-        this.perimeter = 2*3.14*radius;
+        this.perimeter = 2*Math.PI*radius;
         return perimeter;
     }
 
