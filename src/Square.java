@@ -1,5 +1,5 @@
 public class Square extends Rectangle {
-    public double side;
+    private double side;
 
     Square(){
 
