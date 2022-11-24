@@ -1,8 +1,6 @@
 public class Rectangle extends Shape{
     protected double width=1.0;
     protected double length=1.0;
-    public double area=width*length;
-    public double perimeter=width*2+length*2;
 
     Rectangle(){
 
@@ -31,9 +29,11 @@ public class Rectangle extends Shape{
     }
 
     public double getArea() {
+        this.area = width*length;
         return area;
     }
     public double getPerimeter(){
+        this.perimeter=width*2+length*2;
         return perimeter;
     }
 

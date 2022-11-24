@@ -2,7 +2,8 @@ public abstract class Shape {
 
     public String color= "red";
     public boolean filled=true;
-    public double pi=3.14;
+    public double area;
+    public double perimeter;
 
     Shape(){
 
@@ -26,5 +27,16 @@ public abstract class Shape {
 
     public void setFilled(boolean filled) {
         this.filled = filled;
+    }
+
+    public abstract double getArea();
+    public abstract double getPerimeter();
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "color='" + color + '\'' +
+                ", filled=" + filled +
+                '}';
     }
 }
