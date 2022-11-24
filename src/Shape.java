@@ -2,6 +2,7 @@ public abstract class Shape {
 
     public String color= "red";
     public boolean filled=true;
+    public double pi=3.14;
 
     Shape(){
 
