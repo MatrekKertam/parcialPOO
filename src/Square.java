@@ -2,13 +2,17 @@ public class Square extends Rectangle {
     private double side;
 
     Square(){
-
+        this.color = "green";
+        this.side= 4;
+        this.filled = true;
     }
     Square(double side){
-
+        this.setSide(side);
     }
-    Square(double side, String color, boolean filled){
 
+    Square(String color, boolean filled, double side) {
+        super(color, filled);
+        this.setSide(side);
     }
 
     public double getSide() {

@@ -6,7 +6,10 @@ public abstract class Shape {
     public double perimeter;
 
     Shape(){
-
+        this.color = "blue";
+        this.filled = false;
+        this.area = 0;
+        this.perimeter = 0;
     }
     Shape(String color, boolean filled){
         this.setColor(color);

@@ -2,15 +2,22 @@ public class Circle extends Shape{
     protected double radius=1;
 
     Circle(){
-
+        this.color = "blue";
+        this.radius = 3.7;
+        this.filled = true;
+        this.area = 43;
+        this.perimeter = 23.23;
     }
-    Circle(double radius){
 
+    Circle(double radius) {
+        this.setRadius(radius);
     }
 
-    Circle(double radius, String color, boolean filled){
-
+    Circle(double radius, String color, boolean filled) {
+        super(color, filled);
+        this.setRadius(radius);
     }
+
     public double getRadius() {
         return radius;
     }

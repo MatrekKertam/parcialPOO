@@ -3,13 +3,26 @@ public class Rectangle extends Shape{
     protected double length=1.0;
 
     Rectangle(){
-
+        this.color = "yellow";
+        this.filled = true;
+        this.width = 2.5;
+        this.length = 3.7;
+        this.area = 9.25;
+        this.perimeter = 17.4;
+    }
+    Rectangle(String color, boolean filled){
+        this.setColor(color);
+        this.setFilled(filled);
     }
     Rectangle(double width, double length){
-
+        this.setWidth(width);
+        this.setLength(length);
     }
-    Rectangle(double width, double length, String color, boolean filled){
 
+    public Rectangle(String color, boolean filled, double width, double length) {
+        super(color, filled);
+        this.setWidth(width);
+        this.setLength(length);
     }
 
     public double getWidth() {
