@@ -7,6 +7,7 @@ public class Circle extends Shape{
     Circle(double radius){
 
     }
+
     Circle(double radius, String color, boolean filled){
 
     }
@@ -31,9 +32,10 @@ public class Circle extends Shape{
     @Override
     public String toString() {
         return "Circle[" +
-                ", color=" + getColor() +
+                "Shape[" +
+                "color=" + getColor() +
                 ", filled=" + isFilled() +
-                "radius=" + getRadius() +
+                "]radius=" + getRadius() +
                 ']';
     }
 }
