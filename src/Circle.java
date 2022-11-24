@@ -1,5 +1,5 @@
 public class Circle extends Shape{
-    public double radius=1;
+    protected double radius=1;
     public double area=pi*Math.pow(radius,2); //pi*radio2
     public double perimeter=2*pi*radius;
 
@@ -21,6 +21,7 @@ public class Circle extends Shape{
     }
 
     public double getArea() {
+
         return area;
     }
 
