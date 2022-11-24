@@ -38,8 +38,8 @@ public class Square extends Rectangle {
                 "Shape[" +
                 "color=" + getColor() +
                 ", filled=" + isFilled() +
-                "], width=" + getWidth() +
-                ", length=" + getLength() +
+                "], width=" + getSide() +
+                ", length=" + getSide() +
                 "]]";
     }
 }

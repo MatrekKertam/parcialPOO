@@ -19,7 +19,7 @@ public class Rectangle extends Shape{
         this.setLength(length);
     }
 
-    public Rectangle(String color, boolean filled, double width, double length) {
+    public Rectangle(double width, double length, String color,boolean filled) {
         super(color, filled);
         this.setWidth(width);
         this.setLength(length);
@@ -55,9 +55,9 @@ public class Rectangle extends Shape{
         return "Rectangle[" +
                 "Shape" +
                 "[color=" + getColor() +
-                "filled=" + isFilled() +
+                ", filled=" + isFilled() +
                 "]width=" + getWidth() +
-                "length=" + getLength() +
+                ", length=" + getLength() +
                 ']';
     }
 }

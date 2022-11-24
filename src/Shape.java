@@ -5,6 +5,7 @@ public abstract class Shape {
     public double area;
     public double perimeter;
 
+
     Shape(){
         this.color = "blue";
         this.filled = false;
