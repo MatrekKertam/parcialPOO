@@ -41,6 +41,6 @@ public abstract class Shape {
         return "Shape[" +
                 "color=" + getColor() + ", " +
                 ", filled=" + isFilled() +
-                ']';
+                "]";
     }
 }

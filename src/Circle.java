@@ -43,6 +43,7 @@ public class Circle extends Shape{
                 "color=" + getColor() +
                 ", filled=" + isFilled() +
                 "]radius=" + getRadius() +
-                ']';
+                "]\nTiene un perimetro de: " + getPerimeter() +
+                "cm y un area de: " + getArea() + "cm";
     }
 }

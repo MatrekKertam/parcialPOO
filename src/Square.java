@@ -47,7 +47,7 @@ public class Square extends Rectangle {
                     ", filled=" + isFilled() +
                     "], width=" + getSide() +
                     ", length=" + getSide() +
-                    "]]";
+                    "]]\nEs un cuadrado porque tiene las mismas medidas en todos los lados";
         }
         else{
             return "No es cuadrado porque sus lados no son iguales";

@@ -45,21 +45,21 @@ public class Main {
 
 
 
-        System.out.println("Figura numero 1: " + s1);
-        System.out.println("Figura numero 2: " + s2);
-        System.out.println("Figura numero 3: " + s3);
+        System.out.println("Figura numero 1: " + s1 + "\n");
+        System.out.println("Figura numero 2: " + s2 + "\n");
+        System.out.println("Figura numero 3: " + s3 + "\n");
         System.out.println("Figura numero 4: " + s4 + "\n");
-        System.out.println("Figura numero 5: " + s5 + "\nTiene un perimetro de " + s5.getPerimeter() + "cm y un area de " + s5.getArea() + "cm\n");
-        System.out.println("Figura numero 6: " + s6 + "\nTiene un perimetro de " + s6.getPerimeter() + "cm y un area de " + s6.getArea() + "cm\n");
-        System.out.println("Figura numero 7: " + s7 + "\nTiene un perimetro de " + s7.getPerimeter() + "cm y un area de " + s7.getArea() + "cm\n");
-        System.out.println("Figura numero 8: " + s8 + "\nEs un cuadrado porque tiene las mismas medidas en todos los lados\n");
-        System.out.println("Figura numero 9: " + s9 + "\nEs un cuadrado porque tiene las mismas medidas en todos los lados\n");
-        System.out.println("Figura numero 10: " + s10 + "\nEs un cuadrado porque tiene las mismas medidas en todos los lados\n");
-        System.out.println("Figura numero 11: " + s11 + "\nTiene un perimetro de " + s11.getPerimeter() + "cm y un area de " + s11.getArea() + "cm\n");
-        System.out.println("Figura numero 12: " + s12 + "\nTiene un perimetro de " + s12.getPerimeter() + "cm y un area de " + s12.getArea() + "cm\n");
-        System.out.println("Figura numero 13: " + s13 + "\nTiene un perimetro de " + s13.getPerimeter() + "cm y un area de " + s13.getArea() + "cm\n");
-        System.out.println("Figura numero 14: " + s14 + "\nTiene un perimetro de " + s14.getPerimeter() + "cm y un area de " + s14.getArea() + "cm\n");
-        System.out.println("Figura numero 15: " + s15 + "\nTiene un perimetro de " + s15.getPerimeter() + "cm y un area de " + s15.getArea() + "cm\n");
+        System.out.println("Figura numero 5: " + s5 + "\n");
+        System.out.println("Figura numero 6: " + s6 + "\n");
+        System.out.println("Figura numero 7: " + s7 + "\n");
+        System.out.println("Figura numero 8: " + s8 + "\n");
+        System.out.println("Figura numero 9: " + s9 + "\n");
+        System.out.println("Figura numero 10: " + s10 + "\n");
+        System.out.println("Figura numero 11: " + s11 + "\n");
+        System.out.println("Figura numero 12: " + s12 + "\n");
+        System.out.println("Figura numero 13: " + s13 + "\n");
+        System.out.println("Figura numero 14: " + s14 + "\n");
+        System.out.println("Figura numero 15: " + s15 + "\n");
         System.out.println("Figura numero 16: " + s16 + "\n");
 
 

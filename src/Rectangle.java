@@ -58,6 +58,7 @@ public class Rectangle extends Shape{
                 ", filled=" + isFilled() +
                 "]width=" + getWidth() +
                 ", length=" + getLength() +
-                ']';
+                "]\nTiene un perimetro de: " + getPerimeter() +
+                "cm y un area de: " + getArea() + "cm";
     }
 }
