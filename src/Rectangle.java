@@ -8,7 +8,7 @@ public class Rectangle extends Shape{
         this.width = 2.5;
         this.length = 3.7;
         this.area = 9.25;
-        this.perimeter = 17.4;
+        this.perimeter = 12.4;
     }
     Rectangle(String color, boolean filled){
         this.setColor(color);
@@ -19,7 +19,7 @@ public class Rectangle extends Shape{
         this.setLength(length);
     }
 
-    public Rectangle(double width, double length, String color,boolean filled) {
+    Rectangle(double width, double length, String color,boolean filled) {
         super(color, filled);
         this.setWidth(width);
         this.setLength(length);

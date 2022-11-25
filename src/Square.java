@@ -5,9 +5,13 @@ public class Square extends Rectangle {
         this.color = "green";
         this.side= 4;
         this.filled = true;
+        this.length = side;
+        this.width = side;
     }
     Square(double side){
         this.setSide(side);
+        this.length = side;
+        this.width = side;
     }
 
     Square(String color, boolean filled, double side) {
@@ -23,23 +27,31 @@ public class Square extends Rectangle {
         this.side = side;
     }
 
-    public void setWidth(double width){
-        this.width = width;
+    @Override
+    public void setWidth(double width) {
+        super.setWidth(width);
     }
 
+    @Override
     public void setLength(double length) {
-        this.length = length;
+        super.setLength(length);
     }
 
     @Override
     public String toString() {
-        return "Square[" +
-                "Rectangle[" +
-                "Shape[" +
-                "color=" + getColor() +
-                ", filled=" + isFilled() +
-                "], width=" + getSide() +
-                ", length=" + getSide() +
-                "]]";
+        if (width==length) {
+            return "Square[" +
+                    "Rectangle[" +
+                    "Shape[" +
+                    "color=" + getColor() +
+                    ", filled=" + isFilled() +
+                    "], width=" + getSide() +
+                    ", length=" + getSide() +
+                    "]]";
+        }
+        else{
+            return "No es cuadrado porque sus lados no son iguales";
+            }
     }
 }
+
